@@ -1,4 +1,4 @@
-package edu.icet.dto;
+package edu.icet.entiry;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Exam {
+public class ExamEntity {
     private Integer id;
     private String examName;
     private String description;
